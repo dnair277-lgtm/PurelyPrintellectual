@@ -10,6 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .btn-etsy { display:inline-flex; align-items:center; gap:.5em; background:#F1641E; border-color:#F1641E; color:#fff; }
+    .btn-etsy:hover { background:#d4530f; border-color:#d4530f; }
+    .etsy-card { border-color:#F1641E55; }
+    .etsy-card .contact-email { color:#F1641E; }
+    .etsy-card:hover { border-color:#F1641E; }
+  </style>
 </head>
 <body>
 
@@ -23,6 +30,7 @@
         <a href="#work">Work</a>
         <a href="#process">Process</a>
         <a href="#about">About</a>
+        <a href="https://www.etsy.com/shop/PurelyPrintellectual" target="_blank" rel="noopener">Etsy Shop</a>
         <a href="#order" class="btn btn-small">Order Now</a>
       </nav>
     </div>
@@ -38,6 +46,7 @@
           <p class="lead">We work with each client one-on-one to design and print accessories that fit your gear, your space and your style.</p>
           <div class="hero-actions">
             <a href="#order" class="btn">Order Now</a>
+            <a href="https://www.etsy.com/shop/PurelyPrintellectual" class="btn btn-etsy" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M8.6 4.5v6.3h3.9c1.6 0 1.7-.4 2-1.9h.6v5.2h-.6c-.3-1.5-.4-2-2-2H8.6v5.6c0 1.2.6 1.6 2 1.6h2.6c1.4 0 2.6-.1 3.6-2.6l.6.1-.6 3.7H4.3v-.6l.8-.1c1.1-.2 1.3-.5 1.3-1.6V5.4c0-1.2-.2-1.4-1.3-1.6l-.8-.1v-.6h12.1l.3 3.4h-.6c-.6-2.2-1.4-2.6-3.6-2.6H8.6z"/></svg> Shop on Etsy</a>
             <a href="#work" class="btn btn-ghost">See Our Work</a>
           </div>
         </div>
@@ -111,7 +120,7 @@
       <div class="container">
         <p class="eyebrow">Order now</p>
         <h2>Tell us what you're imagining.</h2>
-        <p class="lead narrow">Fill this in and it will open an email to us with your details. You can also email either of us directly.</p>
+        <p class="lead narrow">For a custom piece, fill this in and it will open an email to us with your details. For ready-made items, visit our Etsy shop.</p>
 
         <div class="order-grid">
           <form id="order-form" class="order-form" novalidate>
@@ -140,6 +149,10 @@
           </form>
 
           <div class="contact-cards">
+            <a class="contact-card etsy-card" href="https://www.etsy.com/shop/PurelyPrintellectual" target="_blank" rel="noopener">
+              <span class="contact-label">Shop on Etsy</span>
+              <span class="contact-email">Browse our ready-made items &rarr;</span>
+            </a>
             <a class="contact-card" href="mailto:dnair277@gmail.com?subject=PurelyPrintellectual%20Order%20Request">
               <span class="contact-label">Email us</span>
               <span class="contact-email">dnair277@gmail.com</span>
