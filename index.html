@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PurelyPrintellectual LLC | Custom 3D-Printed PC Accessories</title>
+  <meta name="description" content="PurelyPrintellectual LLC designs and 3D prints custom PC and desk accessories, made one-on-one with each client.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Purely<span>Printellectual</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#order" class="btn btn-small">Order Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Custom 3D-printed PC accessories</p>
+          <h1>Your desk setup,<br><span class="accent">designed around you.</span></h1>
+          <p class="lead">We work with each client one-on-one to design and print accessories that fit your gear, your space and your style.</p>
+          <div class="hero-actions">
+            <a href="#order" class="btn">Order Now</a>
+            <a href="#work" class="btn btn-ghost">See Our Work</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/geometric-cup.jpg" alt="Gray geometric zigzag desk cup fresh off the 3D printer bed">
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <p class="eyebrow">Recent builds</p>
+        <h2>Made to order, made to fit.</h2>
+        <div class="gallery">
+          <figure class="card reveal">
+            <img src="assets/geometric-cup.jpg" alt="Geometric zigzag desk cup on a 3D printer bed" loading="lazy">
+            <figcaption>
+              <h3>Geometric Desk Cup</h3>
+              <p>A faceted zigzag organizer for cables, pens or desk odds and ends.</p>
+            </figcaption>
+          </figure>
+          <figure class="card reveal">
+            <img src="assets/headphone-hook.jpg" alt="Black under-desk clamp holding over-ear headphones" loading="lazy">
+            <figcaption>
+              <h3>Under-Desk Headphone Hook</h3>
+              <p>A clamp-on hanger that keeps headphones off your desk and within reach.</p>
+            </figcaption>
+          </figure>
+          <figure class="card reveal">
+            <img src="assets/pen-stand.jpg" alt="Gray angled pen stand holding six pens and pencils" loading="lazy" style="object-position: 45% 70%">
+            <figcaption>
+              <h3>Angled Pen Stand</h3>
+              <p>Holds pens and pencils at an angle so you can grab the one you need.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">How it works</p>
+        <h2>From idea to your desk in four steps.</h2>
+        <ol class="steps">
+          <li class="reveal"><span class="num">01</span><h3>Reach out</h3><p>Tell us what you need, what gear it's for and any measurements or photos.</p></li>
+          <li class="reveal"><span class="num">02</span><h3>Design together</h3><p>We sketch and model it with you, adjusting until the fit and look are right.</p></li>
+          <li class="reveal"><span class="num">03</span><h3>Print &amp; finish</h3><p>We print your piece, then check it and clean it up by hand.</p></li>
+          <li class="reveal"><span class="num">04</span><h3>Delivered</h3><p>Your accessory arrives ready to use, built for your setup alone.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about">
+        <div>
+          <p class="eyebrow">About us</p>
+          <h2>Small studio, personal service.</h2>
+        </div>
+        <div>
+          <p>PurelyPrintellectual LLC is a small design-and-print studio. Instead of selling off-the-shelf parts, we work directly with each client to design custom PC and desk accessories, such as headphone mounts, organizers and stands, made to fit the gear they already own.</p>
+          <p>Every order starts with a conversation, so you're talking to the people who design and print your piece.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER -->
+    <section id="order" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Order now</p>
+        <h2>Tell us what you're imagining.</h2>
+        <p class="lead narrow">Fill this in and it will open an email to us with your details. You can also email either of us directly.</p>
+
+        <div class="order-grid">
+          <form id="order-form" class="order-form" novalidate>
+            <label>Your name
+              <input type="text" name="name" required placeholder="Jane Doe">
+            </label>
+            <label>What would you like?
+              <select name="item">
+                <option>Headphone hook / mount</option>
+                <option>Desk organizer / cup</option>
+                <option>Pen or tool stand</option>
+                <option>Cable management</option>
+                <option>Something else / fully custom</option>
+              </select>
+            </label>
+            <label>Details
+              <textarea name="details" rows="5" placeholder="Desk thickness, colors, size, what gear it's for…"></textarea>
+            </label>
+            <fieldset>
+              <legend>Send to</legend>
+              <label class="radio"><input type="radio" name="to" value="dnair277@gmail.com" checked> dnair277@gmail.com</label>
+              <label class="radio"><input type="radio" name="to" value="infinite.happiness2009@gmail.com"> Ryan · infinite.happiness2009@gmail.com</label>
+            </fieldset>
+            <button type="submit" class="btn btn-full">Send Order Request</button>
+            <p class="form-note" id="form-note" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-cards">
+            <a class="contact-card" href="mailto:dnair277@gmail.com?subject=PurelyPrintellectual%20Order%20Request">
+              <span class="contact-label">Email us</span>
+              <span class="contact-email">dnair277@gmail.com</span>
+            </a>
+            <a class="contact-card" href="mailto:infinite.happiness2009@gmail.com?subject=PurelyPrintellectual%20Order%20Request">
+              <span class="contact-label">Email Ryan</span>
+              <span class="contact-email">infinite.happiness2009@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo">Purely<span>Printellectual</span></span>
+      <span>&copy; <span id="year"></span> PurelyPrintellectual LLC. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
